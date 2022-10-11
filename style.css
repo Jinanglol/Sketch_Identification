@@ -1,0 +1,32 @@
+body{
+    background-color: cyan;
+}
+
+h1{
+    color:ghostwhite;
+    background-color: coral;
+    font-family: Jokerman;
+}
+
+#show_sketch{
+    float: right;
+    font-family: monospace;
+}
+
+p{
+    font-size: 25px;
+}
+
+canvas{
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    margin-top: 100px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 45px yellow;}
+    to{box-shadow: 1px 1px 45px orangered;}
+}
